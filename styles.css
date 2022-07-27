@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+header h1 {
+    padding: 50px;
+}
+
+.day {
+    background-color: #0077ff56;
+    padding: 15px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    position: relative;
+    border-radius: 10px;
+}
+
+h3 {
+    display: inline-block;
+}
+
+.date {
+    position: relative;
+    right: -100px;
+}
+
+
+/*The Dot Art!*/
+
+#dot {
+    background-color: #ff77ff88;
+    width: 24px;
+    height: 24px;
+    border-radius: 100px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -0.4em;
+}
+
+#ring {
+    width: 16px;
+    height: 16px;
+    background-color: beige;
+    border-radius: 100px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+    filter: blur(3px);
+}
